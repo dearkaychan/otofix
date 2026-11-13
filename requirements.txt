@@ -1,0 +1,6 @@
+# Dipin ke 0.28.x: kode memakai API lama (page.client_storage, page.open, ft.app, ft.padding.*).
+# Flet 1.x mengubah/menghapus API tsb. Peta (flet.core.map), GPS (Geolocator) dan FilePicker
+# sudah termasuk di paket flet 0.28.3, jadi tidak perlu paket tambahan.
+flet==0.28.3
+# Untuk mengecilkan foto profil ke 256 px. Opsional: tanpa Pillow, foto > 1,5 MB ditolak.
+pillow>=10.0
